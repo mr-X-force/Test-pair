@@ -1,0 +1,25 @@
+{
+  "name": "fredie-tech-bot-server",
+  "version": "1.0.0",
+  "description": "WhatsApp Pairing Code Bot using Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.1",
+    "express": "^4.18.4",
+    "pastebin-js": "^1.0.1",
+    "pino": "^8.17.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "fredie-tech",
+    "pairing",
+    "bot"
+  ],
+  "author": "Fredie Ezra",
+  "license": "MIT"
+}
