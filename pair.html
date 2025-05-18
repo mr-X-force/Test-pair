@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WhatsApp Pairing</title>
+</head>
+<body>
+  <h1>Link Your WhatsApp Account</h1>
+  <form id="pairForm">
+    <label for="phoneNumber">Enter your phone number:</label>
+    <input type="text" id="phoneNumber" name="phoneNumber" required />
+<button type="submit">Generate Pairing Code</button>
+  </form>
+  <p id="pairingCode"></p>
+
+  <script>
+    document.getElementById('pairForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const phoneNumber = document.getElementById('phoneNumber').value;
+      // Send the phone number to your backend to generate the pairing code
+      // Display the pairing code to the user
+    });
+  </script>
+</body>
+</html>
